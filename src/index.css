@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-zyone-red: #C4272D;
+  --color-zyone-red-dark: #A51D22;
+  --color-zyone-gold: #D4B475;
+  --color-zyone-dark: #1A1A1A;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-zyone-dark bg-white;
+  }
+}
+
