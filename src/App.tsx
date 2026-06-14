@@ -6,6 +6,7 @@ import ProductShowcase from './components/ProductShowcase';
 import KitSection from './components/KitSection';
 import SupportMaterials from './components/SupportMaterials';
 import VideoSection from './components/VideoSection';
+import PurchaseTutorial, { Testimonials, FAQ } from './components/PurchaseTutorial';
 import Footer from './components/Footer';
 import { Smartphone, Layout, Users, Star, BarChart3, Globe } from 'lucide-react';
 import { motion } from 'motion/react';
@@ -221,6 +222,10 @@ export default function App() {
             </div>
           </div>
         </section>
+
+        <PurchaseTutorial />
+        <Testimonials />
+        <FAQ />
       </main>
 
       <Footer />

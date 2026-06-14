@@ -20,6 +20,8 @@ export default function Navbar() {
     { name: 'Produtos', href: '#produtos' },
     { name: 'Apresentação', href: '#apresentacao' },
     { name: 'Materiais', href: '#materiais' },
+    { name: 'Passo a Passo', href: '#cadastro-passo-a-passo' },
+    { name: 'Tutorial Compra', href: '#tutorial-primeira-compra' },
     { name: 'Cadastro', href: 'https://escritorio.zyone.com.br/cadastro#?id=onathanoficial&convite=MjA0MDc%3D' },
   ];
 
